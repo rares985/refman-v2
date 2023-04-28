@@ -1,0 +1,7 @@
+**/*.min.js
+dist/index.html
+dist/**
+node_modules/**
+webpack.config.*
+src/serviceWorker.js
+src/setupTests.js

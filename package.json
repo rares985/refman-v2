@@ -1,0 +1,36 @@
+{
+  "name": "express-react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate repo for getting started quickly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo No tests yet. Skipping...",
+    "build": "cd client/ && npm run build && cd ../",
+    "build:local": "cd client/ && npm run build:local && cd ../",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rares985/express-react-redux-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rares985/express-react-redux-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rares985/express-react-redux-boilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-static-gzip": "^2.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
